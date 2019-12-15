@@ -5,7 +5,7 @@ My first fun scraping project. This script is written to extract all archived ra
 import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-opts = Options() #any point in this? coz its meant to be inserted into webdriver.chrome
+opts = Options() 
 #pointing to the folder where i store chromedriver
 browser = webdriver.Chrome('/Users/analytics-my-admin/Documents/chromedriver')
 
